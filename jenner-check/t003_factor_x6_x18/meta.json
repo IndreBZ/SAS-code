@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_factor_x6_x18",
+  "source_file": "IndividualusDarbas2_3.sas",
+  "source_blob_sha": "6f9b49958f9cb97c8b8c92396bceeb6a287a1975",
+  "source_commit": "a6046415f824c7b9b9d6a1b7df0f7587a5ab07ac",
+  "notes": "Principal-components factor analysis of the (X6..X18) vector from the HB3B survey task via PROC FACTOR method=principal. Upstream reads hb3b.sas7bdat through `libname analize`; autoexec substitutes an 80-row mock sample carrying ID + X6..X18 so the author's PROC FACTOR var X6-X18 code runs unchanged and produces the eigenvalue table and factor pattern."
+}

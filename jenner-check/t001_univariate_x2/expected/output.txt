@@ -1,0 +1,117 @@
+                                                The UNIVARIATE Procedure
+                                                     Variable:  X11
+
+                                                        Moments
+
+N                                 60    Sum Weights                       60
+Mean                        2.800000    Sum Observations          168.000000
+Std Deviation               1.675345    Variance                    2.806780
+Skewness                   -0.142288    Kurtosis                   -1.125601
+Uncorrected SS            636.000000    Corrected SS              165.600000
+Coeff Variation            59.833737    Std Error Mean              0.216286
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      2.800000  Std Deviation  1.675345
+Median    3.000000  Variance       2.806780
+Mode      5.000000  Range          5.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      2.000000
+50% Median  3.000000
+75% Q3      4.000000
+90%         5.000000
+95%         5.000000
+99%         5.000000
+100% Max    5.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     5.000000
+Value     0.000000  Value     5.000000
+Value     0.000000  Value     5.000000
+Value     0.000000  Value     5.000000
+Value     0.000000  Value     5.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         12.945817969         0
+Sign                     26.5         0
+Signed Rank              1431         0
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  X2
+
+                                                        Moments
+
+                            N                          60    Sum Weights                 60
+                            Mean                 5.252893    Sum Observations     315.17358
+                            Std Deviation       1.7727449    Variance            3.14262449
+                            Skewness           0.24233199    Kurtosis             -0.146798
+                            Uncorrected SS     1840.98794    Corrected SS        185.414845
+                            Coeff Variation    33.7479728    Std Error Mean      0.22886038
+
+
+                                               Basic Statistical Measures
+ 
+                                     Location                    Variability
+
+                                 Mean      5.25289     Std Deviation            1.77274
+                                 Median    5.15918     Variance                 3.14262
+                                 Mode           .      Range                    8.20898
+                                                       Interquartile Range      2.48058
+
+
+                                      Basic Confidence Limits Assuming Normality
+ 
+                                 Parameter          Estimate     90% Confidence Limits
+
+                                 Mean                5.25289       4.87045     5.63534
+                                 Std Deviation       1.77274       1.54248     2.09267
+                                 Variance            3.14262       2.37923     4.37926
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  22.95239    Pr > |t|    <.0001
+                                    Sign           M        30    Pr >= |M|   <.0001
+                                    Signed Rank    S      1830    Pr >= |S|   <.0001
+
+
+
+                         Normal Probability Plot
+    9.5768+                                            *   *++
+          |                                             +++
+          |                                         **++
+          |                                     +**+
+          |                                  ****
+          |                              ****
+          |                           ****
+          |                      *****
+          |                    **+
+          |                +****
+          |         * *******
+          |         +++
+          |     +*+*
+    1.3678+  *++
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_univariate_x2",
+  "source_file": "IndividualusDarbas_1.sas",
+  "source_blob_sha": "e2d65f356b7ee690e9025a1bdd979852bbe63ef0",
+  "source_commit": "a6046415f824c7b9b9d6a1b7df0f7587a5ab07ac",
+  "notes": "Tasks 1.1 and 1.2: empirical distribution of X11 and numeric characteristics + 90% confidence intervals for X2 via PROC UNIVARIATE (freq, plot, cipctldf, cibasic, histogram, qqplot). The upstream reads id1.sas7bdat through `libname analize`; autoexec substitutes a 60-row mock sample with the same columns (X1,X2,X4,X10,X11) so the author's UNIVARIATE code runs unchanged."
+}

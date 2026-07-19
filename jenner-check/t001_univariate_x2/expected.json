@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-19T10:28:30.236990Z",
+  "_captured_run_id": "r_f1fe8c6462d5487f8a55ff591a98dcc5",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote analize_data (60 rows, 5 columns).",
+    "NOTE: PROC UNIVARIATE"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

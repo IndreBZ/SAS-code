@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-19T10:38:53.770093Z",
+  "_captured_run_id": "r_e1d3329f644b4879afed1f0f2ee481a3",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote data_clean (76 rows, 4 columns).",
+    "NOTE: PROC SQL "
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

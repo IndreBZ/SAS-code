@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_ttest_x1_by_x10",
+  "source_file": "IndividualusDarbas_1.sas",
+  "source_blob_sha": "e2d65f356b7ee690e9025a1bdd979852bbe63ef0",
+  "source_commit": "a6046415f824c7b9b9d6a1b7df0f7587a5ab07ac",
+  "notes": "Task 1.5 (two independent-sample test of X1 means split by X10, alpha=0.1) via PROC TTEST, plus the task 1.4 grouped histogram and kernel-density SGPLOT calls. Upstream reads id1.sas7bdat; autoexec substitutes a 60-row mock sample with a real X10 group effect so the pooled/Satterthwaite comparison has signal. Author's TTEST/SGPLOT code runs unchanged."
+}

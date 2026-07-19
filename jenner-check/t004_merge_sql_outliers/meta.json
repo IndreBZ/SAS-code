@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_merge_sql_outliers",
+  "source_file": "IndividualusDarbas2_3.sas",
+  "source_blob_sha": "6f9b49958f9cb97c8b8c92396bceeb6a287a1975",
+  "source_commit": "a6046415f824c7b9b9d6a1b7df0f7587a5ab07ac",
+  "notes": "The outlier-removal step of task 2.3: sort both data sets by id, drop the flagged rows via a MERGE anti-join (if a and not b), then count rows before/after with PROC SQL. Upstream derives the two data sets from hb3b.sas7bdat + ROBUSTREG diagnostics; script.sas inlines an 80-row sample plus a 4-id flagged list (self-contained, so it runs standalone via /v1/quick) so the author's sort/merge/SQL code runs unchanged (80 - 4 = 76 remaining)."
+}

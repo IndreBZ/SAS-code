@@ -1,0 +1,9 @@
+Pradinis_kiekis
+---------------
+             80
+Iskirtys
+--------
+       4
+Po_valymo
+---------
+       76

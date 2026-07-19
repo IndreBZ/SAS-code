@@ -1,0 +1,26 @@
+               The TTEST Procedure                
+                  Variable:  X1                   
+
+X10                N      Mean   Std Dev   Std Err
+----------  --------  --------  --------  --------
+2                 30   11.1884    2.9299    0.5349
+1                 30    8.8243    3.2658    0.5963
+Diff (1-2)              2.3641                    
+
+X10         Lower CL Mean      Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+----------  -------------  --------  -------------  ----------------  --------  ----------------
+2                 10.2795   11.1884        12.0973            2.4186    2.9299            3.7494
+1                  7.8112    8.8243         9.8374            2.6959    3.2658            4.1793
+Diff (1-2)         1.0251    2.3641         3.7031            2.6965    3.1024            3.6680
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal            58      2.95    0.0046
+Satterthwaite  Unequal        57.3      2.95    0.0046
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F      1.24    0.5626
+
