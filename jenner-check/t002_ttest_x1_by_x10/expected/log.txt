@@ -1,0 +1,24 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA analize_data
+
+
+NOTE: Wrote analize_data (60 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC TTEST data=analize_data
+
+NOTE: ODS plot written: ttest_summary.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: PROC TTEST statement used.
+NOTE: PROC SGPLOT data=analize_data
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: PROC SGPLOT data=analize_data
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot1.svg
+NOTE: PROC SGPLOT data=analize_data
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot2.svg
